@@ -6,20 +6,29 @@
       <link rel="stylesheet" href="Resources/index.css">
       <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
   </head>
+  <div class="header">
+      <a href="main.html" class="logo"><img src="resources/logo.png" width="150" height="150"></a>
+      <div class="header-right">
+        <a class="active" href="main.html">Home</a>
+        <a href="about.html">About</a>
+      </div>
+  </div>
   <body>
     <div class="dropdown">
-      <button class="dropbtn">Category</button>
-      <div class="dropdown-content">
-        <a href="#">Groceries</a>
-        <a href="#">Eating out</a>
-        <a href="#">Clothing</a>
-        <a href="#">Gas</a>
-        <a href="#">Entertainment</a>
-        <a href="#">self care</a>
-        <a href="#">Bills</a>
-        <a href="#">Reapairs</a>
-       </div>
+      <select id="spending_item">
+        <option value="default">Category</option>
+        <option value="groceries">Groceries</option>
+        <option value="eating_out">Eating out</option>
+        <option value="clothing">Clothing</option>
+        <option value="gas">Gas</option>
+        <option value="entertainment">Entertainment</option>
+        <option value="self_care">Self care</option>
+        <option value="bills">Bills</option>
+        <option value="repairs">Rapairs</option>
+        <option value="personal">Personal</option>
+      </select>
     </div>
+
     <div>
     <h3>How much did you spend?</h3>
     <p>$</p><input type="number" name="spending_number"/>

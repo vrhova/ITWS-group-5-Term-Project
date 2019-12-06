@@ -6,6 +6,13 @@
       <link rel="stylesheet" href="Resources/index.css">
       <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
   </head>
+  <div class="header">
+      <a href="main.html" class="logo"><img src="resources/logo.png" width="150" height="150"></a>
+      <div class="header-right">
+        <a class="active" href="main.html">Home</a>
+        <a href="about.html">About</a>
+      </div>
+  </div>
   <body>
     <div id="account">
       <a href="account.html" title="View your account"><strong>My Account</strong></a>
@@ -13,19 +20,19 @@
       <!-- <p> id "moneybalance" should display the users current money in the account-->
     </div>
     <div class="menubuttons">
-      <button type="button" href="spending.html">Edit Spending</button>
-      <button type="button" href="income.html">Edit Income</button>
-      <button type="button" href="stats.html">Check My Spending</button>"
-      <button type="button" href="login.html">Log Out</button>
+        <a href="spending.html" class="button_link"><button type="button">Edit Spending</button></a>
+        <a href="income.html" class="button_link"><button type="button">Edit Income</button></a>
+        <a href="stats.html" class="button_link"><button type="button">Check My Spending</button></a>
+        <a href="login.html" class="button_link"><button type="button">Log Out</button></a>
     </div>
     <div class="Transaction Feed">
       <h2>Recent Transactions</h2>
-      <h3>---</h3>
-      <h3>---</h3>
-      <h3>---</h3>
-      <h3>---</h3>
-      <h3>---</h3>
-      <h3>---</h3>
+      <h3 id="first">---</h3>
+      <h3 id="second">---</h3>
+      <h3 id="third">---</h3>
+      <h3 id="fourth">---</h3>
+      <h3 id="fifth">---</h3>
+      <h3 id="sixth">---</h3>
     </div>
   </body>
 </html>
