@@ -1,31 +1,46 @@
 <!doctype html>
 <html>
-  <head>
-      <title>Flexicash Menu</title>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <link rel="stylesheet" href="Resources/index.css">
-      <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div id="account">
-      <a href="account.html" title="View your account"><strong>My Account</strong></a>
-      <p>Your Flexi Balance: <p id="moneybalance">---</p> 
-      <!-- <p> id "moneybalance" should display the users current money in the account-->
+
+<head>
+    <title>Flexicash Menu</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="Resources/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+</head>
+
+<div class="header">
+    <a href="main.html" class="logo"><img src="resources/logo.png" width="150" height="150"></a>
+
+    <div class="header-right">
+        <a class="active" href="main.html">Home</a>
+        <pre> || </pre>
+        <a href="about.html">About</a>
     </div>
-    <div class="menubuttons">
-      <button type="button" href="spending.html">Edit Spending</button>
-      <button type="button" href="income.html">Edit Income</button>
-      <button type="button" href="stats.html">Check My Spending</button>"
-      <button type="button" href="login.html">Log Out</button>
+</div>
+
+<body>
+    <div id="full">
+        <div id="account">
+            <a href="account.html" title="View your account"><strong>My Account</strong></a>
+            <pre>Your Flexi Balance:  $0.00</pre>
+
+            <!-- <p> id "moneybalance" should display the users current money in the account-->
+        </div>
+        <div class="menubuttons">
+            <a href="spending.php" class="button_link"><button type="button">Spending</button></a>
+            <a href="income.php" class="button_link"><button type="button">Income</button></a>
+            <a href="stats.html" class="button_link"><button type="button">Stats</button></a>
+            <a href="login.html" class="button_link"><button type="button">Log Out</button></a>
+        </div>
+        <div class="Transaction_Feed">
+            <h2>Recent Transactions</h2>
+            <h3 id="first">-$20.96</h3>
+            <h3 id="second">$400</h3>
+            <h3 id="third">-$30</h3>
+            <h3 id="fourth">-$56.76</h3>
+            <h3 id="fifth">$-15.50</h3>
+        </div>
     </div>
-    <div class="Transaction Feed">
-      <h2>Recent Transactions</h2>
-      <h3>---</h3>
-      <h3>---</h3>
-      <h3>---</h3>
-      <h3>---</h3>
-      <h3>---</h3>
-      <h3>---</h3>
-    </div>
-  </body>
+</body>
+
 </html>
