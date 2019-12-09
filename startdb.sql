@@ -1,3 +1,5 @@
+CREATE DATABASE x;
+
 CREATE TABLE `spending` (
  `id` int(10) DEFAULT NULL AUTO_INCREMENT,
  `category` varchar(100) NOT NULL,
