@@ -3,7 +3,7 @@ Anthony V, Dylan K, Ryan Z ITWS site
 
 ITWS Term project for presentation on December 9, 2019.
 
-https://github.com/vrhova/ITWS-group-5-Term-Project
+https://github.com/Kullas233/ITWS-group-5-Term-Project
 
 Status-Partially complete/Work in Progress
 
